@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Таблетки</string>
+
+    <string name="nav_today">Сегодня</string>
+    <string name="nav_meds">Лекарства</string>
+    <string name="nav_history">История</string>
+    <string name="nav_settings">Настройки</string>
+
+    <string name="unit_tablet">Таблетки</string>
+    <string name="unit_capsule">Капсулы</string>
+    <string name="unit_ml">Миллилитры</string>
+    <string name="unit_drop">Капли</string>
+    <string name="unit_piece">Штуки</string>
+    <string name="unit_tablet_short">таб.</string>
+    <string name="unit_capsule_short">капс.</string>
+    <string name="unit_ml_short">мл</string>
+    <string name="unit_drop_short">кап.</string>
+    <string name="unit_piece_short">шт.</string>
+
+    <string-array name="weekdays_short">
+        <item>Пн</item>
+        <item>Вт</item>
+        <item>Ср</item>
+        <item>Чт</item>
+        <item>Пт</item>
+        <item>Сб</item>
+        <item>Вс</item>
+    </string-array>
+    <string name="days_every">Каждый день</string>
+    <string name="days_weekdays">По будням</string>
+    <string name="days_weekends">По выходным</string>
+    <string name="days_none">Выберите хотя бы один день</string>
+
+    <string name="window_range">%1$s – %2$s</string>
+    <string name="duration_hours_minutes">%1$d ч %2$d мин</string>
+    <string name="duration_hours">%d ч</string>
+    <string name="duration_minutes">%d мин</string>
+
+    <string name="action_take">Принял</string>
+    <string name="action_skip">Пропустить</string>
+    <string name="action_reset">Сбросить отметку</string>
+    <string name="action_snooze">Через %d мин</string>
+    <string name="action_delete">Удалить</string>
+    <string name="action_cancel">Отмена</string>
+    <string name="action_ok">Готово</string>
+
+    <string name="cd_back">Назад</string>
+    <string name="cd_less">Меньше</string>
+    <string name="cd_more">Больше</string>
+    <string name="cd_remove_window">Удалить приём</string>
+
+    <!-- Today -->
+    <string name="today_title">Сегодня</string>
+    <string name="today_due_title">Пора принять</string>
+    <string name="today_next">Следующий приём в %s</string>
+    <!-- Russian plural forms: one, few, many (see ruPlural). -->
+    <string-array name="today_left">
+        <item>Остался %d приём</item>
+        <item>Осталось %d приёма</item>
+        <item>Осталось %d приёмов</item>
+    </string-array>
+    <string name="today_missed_title">Есть неотмеченные</string>
+    <string name="today_missed_hint">Отметьте приёмы, если уже приняли</string>
+    <string name="today_all_done">Всё принято!</string>
+    <string name="today_all_done_hint">%1$d из %2$d за сегодня. Так держать!</string>
+    <string name="today_nothing_today">Сегодня приёмов нет</string>
+    <string name="today_nothing_today_hint">По расписанию на сегодня ничего не запланировано.</string>
+    <string name="today_empty_title">Добавьте первое лекарство</string>
+    <string name="today_empty_hint">Укажите, сколько принимать и в какое окно времени, — приложение напомнит.</string>
+    <string name="today_add_medication">Добавить лекарство</string>
+    <string name="today_low_stock_title">Заканчивается</string>
+    <string name="today_low_stock_item">%1$s — осталось %2$s</string>
+    <string name="progress_of">%1$d/%2$d</string>
+
+    <string name="status_now">сейчас</string>
+    <string name="status_due_until">Сейчас · до %s</string>
+    <string name="status_upcoming_in">Через %s</string>
+    <string name="status_missed">Не отмечено</string>
+    <string name="status_skipped">Пропущено</string>
+    <string name="status_taken_at">Принято в %s</string>
+
+    <!-- Medications -->
+    <string name="meds_title">Лекарства</string>
+    <string name="meds_add">Добавить</string>
+    <string name="meds_empty_title">Список пуст</string>
+    <string name="meds_empty_hint">Нажмите «Добавить», чтобы создать первое лекарство.</string>
+    <string name="meds_stock_left">Осталось %s</string>
+    <string name="meds_reminders_off">Без напоминаний</string>
+    <string name="meds_no_windows">Время приёма не задано</string>
+
+    <!-- Editor -->
+    <string name="edit_new_title">Новое лекарство</string>
+    <string name="edit_title">Изменить</string>
+    <string name="edit_save">Сохранить</string>
+    <string name="edit_name">Название</string>
+    <string name="edit_name_error">Введите название</string>
+    <string name="edit_dosage">Дозировка</string>
+    <string name="edit_dosage_hint">например, 500 мг</string>
+    <string name="edit_note">Комментарий</string>
+    <string name="edit_note_hint">например, после еды</string>
+    <string name="edit_section_look">Вид и форма</string>
+    <string name="edit_section_schedule">Когда и сколько принимать</string>
+    <string name="edit_section_days">Дни приёма</string>
+    <string name="edit_section_reminders">Напоминания</string>
+    <string name="edit_section_stock">Запас</string>
+    <string name="edit_window_from">с</string>
+    <string name="edit_window_to">до</string>
+    <string name="edit_window_amount">Количество</string>
+    <string name="edit_window_next_day">Окно заканчивается на следующий день</string>
+    <string name="edit_add_window">Добавить приём</string>
+    <string name="edit_windows_error">Добавьте хотя бы один приём</string>
+    <string name="edit_reminders_switch">Напоминать о приёме</string>
+    <string name="edit_reminders_hint">Уведомление в начале окна и повторы, пока не отметите</string>
+    <string name="edit_stock_switch">Следить за запасом</string>
+    <string name="edit_stock_hint">Уменьшается при каждом приёме, предупредит, когда пора купить</string>
+    <string name="edit_stock_current">В наличии</string>
+    <string name="edit_stock_threshold">Предупредить при</string>
+    <string name="edit_delete">Удалить лекарство</string>
+    <string name="edit_delete_confirm_title">Удалить «%s»?</string>
+    <string name="edit_delete_confirm_text">История приёмов этого лекарства тоже будет удалена.</string>
+    <string name="time_picker_start">Начало окна</string>
+    <string name="time_picker_end">Конец окна</string>
+
+    <!-- History -->
+    <string name="history_title">История</string>
+    <string name="history_rate_caption">принято за 30 дней</string>
+    <string-array name="history_streak_caption">
+        <item>день подряд без пропусков</item>
+        <item>дня подряд без пропусков</item>
+        <item>дней подряд без пропусков</item>
+    </string-array>
+    <string name="history_day_empty">В этот день приёмов не было</string>
+    <string name="history_legend_all">Всё принято</string>
+    <string name="history_legend_partial">Частично</string>
+    <string name="history_legend_none">Пропущено</string>
+    <string name="history_status_taken">Принято</string>
+    <string name="history_status_pending">Ожидается</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Настройки</string>
+    <string name="settings_reminders">Напоминания</string>
+    <string name="settings_repeat">Повторять напоминание</string>
+    <string name="settings_repeat_hint">Пока окно открыто и приём не отмечен</string>
+    <string name="settings_repeat_off">Не повторять</string>
+    <string name="settings_minutes">%d мин</string>
+    <string name="settings_snooze">Отложить на</string>
+    <string name="settings_snooze_hint">Кнопка «Через N мин» в уведомлении</string>
+    <string name="settings_permissions">Разрешения</string>
+    <string name="settings_notifications">Уведомления</string>
+    <string name="settings_notifications_off">Выключены — напоминания не придут</string>
+    <string name="settings_exact">Точные будильники</string>
+    <string name="settings_exact_off">Напоминания могут опаздывать</string>
+    <string name="settings_granted">Разрешено</string>
+    <string name="settings_allow">Разрешить</string>
+    <string name="settings_test">Проверить уведомление</string>
+    <string name="settings_version">Версия %s</string>
+
+    <!-- Notifications -->
+    <string name="channel_reminders">Напоминания о приёме</string>
+    <string name="channel_reminders_desc">Уведомления в начале окна приёма и повторы</string>
+    <string name="channel_stock">Запас лекарств</string>
+    <string name="channel_stock_desc">Предупреждения, когда лекарство заканчивается</string>
+    <string name="notif_title">Пора принять: %s</string>
+    <string name="notif_title_missed">Не отмечено: %s</string>
+    <string name="notif_text">%1$s · до %2$s</string>
+    <string name="notif_missed_text">Окно %s прошло. Отметьте, если уже приняли.</string>
+    <string name="notif_low_stock_title">Заканчивается: %s</string>
+    <string name="notif_low_stock_text">Осталось %s — пора пополнить запас.</string>
+    <string name="notif_test_title">Так выглядит напоминание</string>
+    <string name="notif_test_text">Если вы это видите — уведомления работают.</string>
+</resources>
